@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usuarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- cabeçalho do crud-->
+        <header>
+            <p id="headerP">
+                Meus usuarios
+            </p>
+            
+        </header>
+        <!--corpo do menu-->
+        <main>
+            <div id="users">
+
+               <label>cadastrar um usuario:</label> <input id="input_users" type="text" value="" placeholder="digite o seu nome aqui">
+                <button id="btn_user">cadastrar</button>
+                <div id="list_users">
+                    <table id="tabela_users">
+                        <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>nome do usuario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th id="incremento">
+
+                                </th>
+                                <th id=users_name>
+
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </div>
+            <div id="books">
+                <label>cadastrar um livro:</label> <input id="input_books" type="books" value="" placeholder="digite o seu nome aqui">
+                <button id="btn_books">cadastrar</button>
+                <div id="list_books">
+                    <table id="tabela_books">
+                        <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>nome do livro</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th id="incremento2">
+
+                                </th>
+                                <th id=users_books>
+
+                                </th>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                feito por Matheus Gabriel
+            </p>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>
