@@ -1,0 +1,12 @@
+.rodape {
+    background-color:gray;
+   width: 100%;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+
+}
+.rodape a{
+    text-decoration: none;
+    margin:10px;
+}
