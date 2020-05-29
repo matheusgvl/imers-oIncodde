@@ -1,0 +1,18 @@
+button {
+    margin-right:10px;
+    color:black;
+    border-radius : 10px solid black;
+}
+.inputText {
+
+
+}
+.imagemGoogle{
+    
+   
+    display: flex;
+   margin-top: 200px;
+    justify-content: center;
+    /*background-image: url(https://img.olhardigital.com.br/uploads/acervo_imagens/2014/05/r16x9/20140527144244_1200_675_-_google__novo_logo.jpg);
+    */
+}
