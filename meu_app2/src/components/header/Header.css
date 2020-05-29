@@ -1,0 +1,20 @@
+.header a{
+    color:black;
+    text-decoration: none;
+    margin-left:10px;
+
+}
+#img {
+    background-image: url(https://cdn.icon-icons.com/icons2/1369/PNG/512/-apps_90405.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+
+    
+}
